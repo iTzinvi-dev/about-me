@@ -35,7 +35,7 @@ module.exports = {
                 use: ['html-loader'],
             },
             {
-                test: /\.ts?$/,
+                test: /\.ts$/,
                 use: 'ts-loader',
                 exclude: /node_modules/,
             },

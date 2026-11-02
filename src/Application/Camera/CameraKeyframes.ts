@@ -119,7 +119,7 @@ export class IdleKeyframe extends CameraKeyframeInstance {
         const keyframe = keys.idle;
         super(keyframe);
         this.origin = new THREE.Vector3().copy(keyframe.position);
-        this.time = new Time();
+        this.time = new Application().time;
     }
 
     update() {

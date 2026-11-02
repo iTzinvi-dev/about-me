@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "ES2018",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "jsx": "react",
+        "strict": false,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": false,
+        "skipLibCheck": true,
+        "allowJs": true,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "baseUrl": ".",
+        "paths": {
+            "three": ["./node_modules/three"]
+        }
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "public"]
+}

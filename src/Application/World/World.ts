@@ -1,3 +1,4 @@
+import * as THREE from 'three';
 import Application from '../Application';
 import Resources from '../Utils/Resources';
 import ComputerSetup from './Computer';
